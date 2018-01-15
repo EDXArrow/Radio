@@ -1,0 +1,84 @@
+[29.056549072] 2018-01-15 22:51:11,253 - INFO - launcher: Starting sanity checks
+[29.546737671] 2018-01-15 22:51:11,253 - INFO - launcher: Checking for Python 3.5+
+[29.546737671] 2018-01-15 22:51:11,253 - INFO - launcher: Checking console encoding
+[30.048131943] 2018-01-15 22:51:11,254 - INFO - launcher: Setting console encoding to UTF-8
+[30.048131943] 2018-01-15 22:51:11,254 - INFO - launcher: Ensuring we're in the right environment
+[31.106472015] 2018-01-15 22:51:11,255 - INFO - launcher: Adding local bins/ folder to path
+[31.550884247] 2018-01-15 22:51:11,255 - INFO - launcher: Required checks passed.
+[35.109758377] 2018-01-15 22:51:11,259 - INFO - launcher: Optional checks passed.
+[35.618543625] 2018-01-15 22:51:11,260 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.2238340377807617] 2018-01-15 22:51:12,448 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 213 in _setup_logging: Set logging level to INFO
+[1.2238340377807617] 2018-01-15 22:51:12,448 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 80 in __init__: =========== MusicBot (version 1.9.6_1) ===========
+[1.2244894504547119] 2018-01-15 22:51:12,448 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 86 in __init__: Loaded autoplaylist with 2 entries
+[1.225995064] launcher-INFO: Connecting
+[3.9471874237060547] 2018-01-15 22:51:15,171 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 1011 in on_ready: Connection established, ready to go.
+[3.9471874237060547] 2018-01-15 22:51:15,171 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 324 in _cache_app_info: Caching app info
+[4.0865859985351562] 2018-01-15 22:51:15,310 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[4.0916242599487305] 2018-01-15 22:51:15,316 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 844 in _scheck_server_permissions: Checking server permissions
+[4.0921230316162109] 2018-01-15 22:51:15,316 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[4.0921230316162109] 2018-01-15 22:51:15,316 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 852 in _scheck_configs: Validating config
+[4.0921230316162109] 2018-01-15 22:51:15,316 - DEBUG - musicbot.config | In config.py::MainThread(30044), line 155 in async_validate: Validating options...
+[4.0921230316162109] 2018-01-15 22:51:15,316 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 855 in _scheck_configs: Validating permissions config
+[4.0921230316162109] 2018-01-15 22:51:15,316 - DEBUG - musicbot.permissions | In permissions.py::MainThread(30044), line 59 in async_validate: Validating permissions...
+[4.0926020145416260] 2018-01-15 22:51:15,317 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1022 in on_ready: Connected to Discord!
+[4.0931029319763184] 2018-01-15 22:51:15,317 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1032 in on_ready: Bot:   402515685948915722/Radio#9413 [BOT]
+[4.0936319828033447] 2018-01-15 22:51:15,318 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1040 in on_ready: Owner: 195497508611293194/Suinalk#4755
+
+[4.0946056842803955] 2018-01-15 22:51:15,319 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1043 in on_ready: Server List:
+[4.0951068401336670] 2018-01-15 22:51:15,319 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1044 in <listcomp>:  - The Master Baiters
+[4.0951068401336670] 2018-01-15 22:51:15,319 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1044 in <listcomp>:  - Suinalk's armpits?
+[4.0956084728240967] 2018-01-15 22:51:15,320 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1088 in on_ready: Not bound to any text channels
+[4.0961101055145264] 2018-01-15 22:51:15,320 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1101 in on_ready: Autojoining voice chanels:
+[4.0961101055145264] 2018-01-15 22:51:15,320 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1102 in <listcomp>:  - The Master Baiters/General
+[4.0966110229492188] 2018-01-15 22:51:15,321 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1102 in <listcomp>:  - Suinalk's armpits?/🎵Pub🎵
+[4.0971157550811768] 2018-01-15 22:51:15,321 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1118 in on_ready: Options:
+[4.0976145267486572] 2018-01-15 22:51:15,322 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1120 in on_ready:   Command prefix: 
+[4.0976145267486572] 2018-01-15 22:51:15,322 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1121 in on_ready:   Default volume: 5%
+[4.0981149673461914] 2018-01-15 22:51:15,322 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[4.0981149673461914] 2018-01-15 22:51:15,322 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[4.0991177558898926] 2018-01-15 22:51:15,323 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1125 in on_ready:   Auto-Summon: Disabled
+[4.0991177558898926] 2018-01-15 22:51:15,323 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1126 in on_ready:   Auto-Playlist: Enabled
+[4.1001214981079102] 2018-01-15 22:51:15,324 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1127 in on_ready:   Auto-Pause: Disabled
+[4.1001214981079102] 2018-01-15 22:51:15,324 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1128 in on_ready:   Delete Messages: Enabled
+[4.1006255149841309] 2018-01-15 22:51:15,325 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1130 in on_ready:     Delete Invoking: Disabled
+[4.1011238098144531] 2018-01-15 22:51:15,325 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1131 in on_ready:   Debug Mode: Disabled
+[4.1011238098144531] 2018-01-15 22:51:15,325 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 1132 in on_ready:   Downloaded songs will be saved
+[4.1046142578125000] 2018-01-15 22:51:15,329 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 267 in _join_startup_channels: Attempting to join The Master Baiters/General
+[4.1051170825958252] 2018-01-15 22:51:15,329 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 437 in get_voice_client: Connection attempt 1 to General
+[4.1051170825958252] 2018-01-15 22:51:15,329 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[4.1056194305419922] 2018-01-15 22:51:15,330 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[4.1056194305419922] 2018-01-15 22:51:15,330 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[5.6561546325683594] 2018-01-15 22:51:16,880 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 2552 in on_voice_state_update: Resumed voice connection to The Master Baiters/General
+[5.6566548347473145] 2018-01-15 22:51:16,881 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 2564 in on_voice_state_update: Voice state update for 402515685948915722/Radio#9413 on The Master Baiters/General -> [RESUME, CONNECT]
+[5.6571302413940430] 2018-01-15 22:51:16,881 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[5.6576583385467529] 2018-01-15 22:51:16,882 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[5.9663147926330566] 2018-01-15 22:51:17,190 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[5.9668159484863281] 2018-01-15 22:51:17,191 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 463 in get_voice_client: Connected in 1.9s
+[5.9668159484863281] 2018-01-15 22:51:17,191 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 464 in get_voice_client: Connected to The Master Baiters/General
+[5.9682910442352295] 2018-01-15 22:51:17,192 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 805 in deserialize_queue: Deserializing queue for 165960734885412864
+[6.0942189693450928] 2018-01-15 22:51:17,318 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 555 in get_player: Created player via deserialization for server 165960734885412864 with 1 entries
+[6.0947163105010986] 2018-01-15 22:51:17,319 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 283 in _join_startup_channels: Joined The Master Baiters/General
+[6.0955314636230469] 2018-01-15 22:51:17,319 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 267 in _join_startup_channels: Attempting to join Suinalk's armpits?/🎵Pub🎵
+[6.0966632366180420] 2018-01-15 22:51:17,321 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 437 in get_voice_client: Connection attempt 1 to 🎵Pub🎵
+[6.0966632366180420] 2018-01-15 22:51:17,321 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[6.0966632366180420] 2018-01-15 22:51:17,321 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[6.0971944332122803] 2018-01-15 22:51:17,321 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[6.0971944332122803] 2018-01-15 22:51:17,321 - VOICEDEBUG - musicbot.player | In player.py::MainThread(30044), line 311 in websocket_check: Starting websocket check loop for The Master Baiters
+[6.0976982116699219] 2018-01-15 22:51:17,322 - FFMPEG - musicbot.player | In player.py::MainThread(30044), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-opC2ybXb13s-Instrumental_Jazz_Music_for_Hotel_Lobby_-_Relaxing_Background_Music.webm
+[6.2613456249237061] 2018-01-15 22:51:17,485 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 781 in serialize_queue: Serializing queue for 165960734885412864
+[8.0656416416168213] 2018-01-15 22:51:19,290 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 2552 in on_voice_state_update: Resumed voice connection to Suinalk's armpits?/🎵Pub🎵
+[8.0661425590515137] 2018-01-15 22:51:19,290 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 2564 in on_voice_state_update: Voice state update for 402515685948915722/Radio#9413 on Suinalk's armpits?/🎵Pub🎵 -> [RESUME, CONNECT]
+[8.0661425590515137] 2018-01-15 22:51:19,290 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[8.0666439533233643] 2018-01-15 22:51:19,291 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[8.4248173236846924] 2018-01-15 22:51:19,649 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(30044), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[8.4248173236846924] 2018-01-15 22:51:19,649 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 463 in get_voice_client: Connected in 2.3s
+[8.4248173236846924] 2018-01-15 22:51:19,649 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 464 in get_voice_client: Connected to Suinalk's armpits?/🎵Pub🎵
+[8.4262125492095947] 2018-01-15 22:51:19,650 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 805 in deserialize_queue: Deserializing queue for 221994535981416451
+[8.4412543773651123] 2018-01-15 22:51:19,665 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 555 in get_player: Created player via deserialization for server 221994535981416451 with 1 entries
+[8.4417562484741211] 2018-01-15 22:51:19,666 - INFO - musicbot.bot | In bot.py::MainThread(30044), line 283 in _join_startup_channels: Joined Suinalk's armpits?/🎵Pub🎵
+[8.4427585601806641] 2018-01-15 22:51:19,667 - VOICEDEBUG - musicbot.player | In player.py::MainThread(30044), line 311 in websocket_check: Starting websocket check loop for Suinalk's armpits?
+[8.4427585601806641] 2018-01-15 22:51:19,667 - FFMPEG - musicbot.player | In player.py::MainThread(30044), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-opC2ybXb13s-Instrumental_Jazz_Music_for_Hotel_Lobby_-_Relaxing_Background_Music.webm
+[8.5555589199066162] 2018-01-15 22:51:19,779 - DEBUG - musicbot.bot | In bot.py::MainThread(30044), line 781 in serialize_queue: Serializing queue for 221994535981416451
